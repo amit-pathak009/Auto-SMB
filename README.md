@@ -1,6 +1,3 @@
-# **README.md**
-
-````markdown
 # smb-configuration
 
 A complete SMB (Samba) configuration automation toolkit designed to simplify and accelerate the setup of SMB file sharing on Linux and Windows systems. This repository contains ready-to-use scripts for automated Samba configuration, Windows folder redirection, and streamlined network share preparation.
@@ -13,10 +10,10 @@ Setting up SMB (Server Message Block) for file sharing can be confusing, especia
 
 This project provides:
 
-- Automated SMB setup on Linux using shell scripts  
-- Windows `.bat` script for file redirection  
-- Windows `.reg` file for folder redirection  
-- A pre-packaged setup useful for sysadmins, students, labs, and mixed-environment networks  
+- **Automated SMB setup** on Linux using shell scripts.
+- **Windows `.bat` script** for file redirection.
+- **Windows `.reg` file** for folder redirection.
+- A pre-packaged setup useful for sysadmins, students, labs, and mixed-environment networks.
 
 All files in this repository are standalone and ready to use without modifications.
 
@@ -25,7 +22,7 @@ All files in this repository are standalone and ready to use without modificatio
 ## 📁 Repository Structure
 
 | File | Description |
-|------|-------------|
+| :--- | :--- |
 | **auto-smb-setup.sh** | Fully automated SMB setup script for Linux. Installs Samba, configures shares, sets permissions, and restarts services. |
 | **smbconfig.sh** | Manual SMB configuration script offering step-by-step interactive controls. |
 | **redirect-file.bat** | Windows batch script for redirecting files/folders to network shares. |
@@ -36,24 +33,24 @@ All files in this repository are standalone and ready to use without modificatio
 
 ## 🧩 Features
 
-### ✔ Linux Features  
-- Automatic Samba installation  
-- Creation of shared directories  
-- Permission and ownership configuration  
-- Automatic Samba user configuration  
-- Auto-generation of `smb.conf` entries  
-- Samba service restart and validation  
+### ✔ Linux Features
+- Automatic Samba installation.
+- Creation of shared directories.
+- Permission and ownership configuration.
+- Automatic Samba user configuration.
+- Auto-generation of `smb.conf` entries.
+- Samba service restart and validation.
 
-### ✔ Windows Features  
-- Folder redirection via registry  
-- Batch script-based file/folder redirection  
-- Plug-and-play compatibility with server SMB shares  
+### ✔ Windows Features
+- Folder redirection via registry.
+- Batch script-based file/folder redirection.
+- Plug-and-play compatibility with server SMB shares.
 
-### ✔ General Benefits  
-- Cross-platform SMB deployment  
-- Eliminates manual configuration errors  
-- Saves time when deploying on multiple machines  
-- Ideal for labs, servers, classrooms, and enterprise environments  
+### ✔ General Benefits
+- Cross-platform SMB deployment.
+- Eliminates manual configuration errors.
+- Saves time when deploying on multiple machines.
+- Ideal for labs, servers, classrooms, and enterprise environments.
 
 ---
 
@@ -64,10 +61,10 @@ All files in this repository are standalone and ready to use without modificatio
 Run the following commands:
 
 ```bash
-git clone https://github.com/amit-pathak009/smb-configuration.git
+git clone [https://github.com/amit-pathak009/smb-configuration.git](https://github.com/amit-pathak009/smb-configuration.git)
 cd smb-configuration
 sudo bash auto-smb-setup.sh
-````
+```
 
 This script will:
 
